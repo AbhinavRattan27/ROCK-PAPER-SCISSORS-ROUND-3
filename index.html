@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ROCK, PAPER , SCISSORS</title>
+       
+        <link rel="stylesheet" href="style.css">
+        <script src="abhi.js"></script>
+        
+    </head>
+    <body>
+
+        <h1 class="main" id="main3"> ROUND 3</h1>
+        
+            <h1 class="main" id="next">CHOOSE:</h1>
+            
+            <div class="row">
+              
+              <div class="column">
+                  <img src="download.jpeg" alt="Rock" class="img1" >
+                  <button type="button" class="button1" onclick="blah()">CHOOSE</button>
+                </div>
+                <div class="column">
+                  <img src="paper_111691001.jpg" alt="PAPER" class="img2" >
+                  <button type="button" class="button1" onclick="blah2()">CHOOSE</button>
+                </div>
+                <div class="column">
+                  <img src="CUT_8_0904_10__S1.webp" alt="Scissors" class="img3">
+                  <button type="button" class="button1" onclick="blah3()">CHOOSE</button>
+                </div>
+              </div>
+              <p id="demo"></p>
+              <div class="imgdiv>">
+              
+              </div>
+            <script>
+
+            function blah(){
+                let x = Math.floor((Math.random() * 10) + 1);
+            document.getElementById("demo").innerHTML = x;
+
+             if (x==5) {
+               document.getElementById("main3").innerHTML="You lose, Your opponent choose paper"
+             }
+             if (x==1) {
+               document.getElementById("main3").innerHTML="You lose, Your opponent choose paper"
+             }
+             if (x==3) {
+               document.getElementById("main3").innerHTML="You lose, Your opponent choose paper"
+             }
+             if (x==7) {
+               document.getElementById("main3").innerHTML="It's a Draw!"
+             }
+             if (x==9) {
+               document.getElementById("main3").innerHTML="You lose, Your opponent choose paper"
+             }
+             if (x==2) {
+               document.getElementById("main3").innerHTML="It's a Draw!"
+             }
+             if (x==4) {
+               document.getElementById("main3").innerHTML="You Win, Your opponent choose scissors"
+             }
+             if (x==6) {
+               document.getElementById("main3").innerHTML="You Win, Your opponent choose scissors"
+             }
+             if (x==8) {
+               document.getElementById("main3").innerHTML="You Win, Your opponent choose scissors"
+             }
+             if (x==10) {
+               document.getElementById("main3").innerHTML="You Win, Your opponent choose scissors"
+             }
+               
+            
+             setTimeout(function(){
+            window.location.href = 'http://www.google.com/';
+         }, 4000);
+             
+            }
+
+            function blah2(){
+                let x = Math.floor((Math.random() * 10) + 1);
+            document.getElementById("demo").innerHTML = x;
+            if (x==5) {
+               document.getElementById("main3").innerHTML="You lose, Your opponent choose scissors"
+             }
+             if (x==1) {
+               document.getElementById("main3").innerHTML="You lose, Your opponent choose scissors"
+             }
+             if (x==3) {
+               document.getElementById("main3").innerHTML="You lose, Your opponent choose scissors"
+             }
+             if (x==7) {
+               document.getElementById("main3").innerHTML="It's a Draw!"
+             }
+             if (x==9) {
+               document.getElementById("main3").innerHTML="You lose, Your opponent choose scissors"
+             }
+             if (x==2) {
+               document.getElementById("main3").innerHTML="It's a Draw!"
+             }
+             if (x==4) {
+               document.getElementById("main3").innerHTML="You Win, Your opponent choose rock"
+             }
+             if (x==6) {
+               document.getElementById("main3").innerHTML="You Win, Your opponent choose rock"
+             }
+             if (x==8) {
+               document.getElementById("main3").innerHTML="You Win, Your opponent choose rock"
+             }
+             if (x==10) {
+               document.getElementById("main3").innerHTML="You Win, Your opponent choose rock"
+             }
+            
+             setTimeout(function(){
+            window.location.href = 'http://www.google.com/';
+         }, 4000);
+            }
+
+            function blah3(){
+                let x = Math.floor((Math.random() * 10) + 1);
+            document.getElementById("demo").innerHTML = x;
+            if (x==5) {
+               document.getElementById("main3").innerHTML="You lose, Your opponent choose rock"
+             }
+             if (x==1) {
+               document.getElementById("main3").innerHTML="You lose, Your opponent choose rock"
+             }
+             if (x==3) {
+               document.getElementById("main3").innerHTML="You lose, Your opponent choose rock"
+             }
+             if (x==7) {
+               document.getElementById("main3").innerHTML="It's a Draw!"
+             }
+             if (x==9) {
+               document.getElementById("main3").innerHTML="You lose, Your opponent choose rock"
+             }
+             if (x==2) {
+               document.getElementById("main3").innerHTML="It's a Draw!"
+             }
+             if (x==4) {
+               document.getElementById("main3").innerHTML="You Win, Your opponent choose paper"
+             }
+             if (x==6) {
+               document.getElementById("main3").innerHTML="You Win, Your opponent choose paper"
+             }
+             if (x==8) {
+               document.getElementById("main3").innerHTML="You Win, Your opponent choose paper"
+             }
+             if (x==10) {
+               document.getElementById("main3").innerHTML="You Win, Your opponent choose paper"
+             }
+            
+             setTimeout(function(){
+            window.location.href = "http://www.google.com/"
+         }, 4000);
+            }
+        </script>
+
+    </body>
+</html>
+
+

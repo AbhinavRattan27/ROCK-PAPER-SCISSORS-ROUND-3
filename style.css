@@ -1,0 +1,55 @@
+body{
+    background-color:aquamarine;
+    background-image:url(hands-playing-rock-paper-scissors-game-flat-design-style-vector-illustration_540284-598.webp);
+    background-size: cover;
+}
+    
+.main{
+    text-align: center;
+    font-size: 54px;
+    background-color: crimson;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  .row {
+    display: flex;
+  }
+  
+  /* Create three equal columns that sits next to each other */
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+  }
+
+  .img1{
+    width: 300px;
+    height: 300px;
+    border-color: black;
+    border-width: 20px;
+    border-radius: 20px;
+  }
+
+  .img2{
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+  }
+
+  .img3{
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    border-width: 50px;
+  }
+
+  .mainimg1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  
+  
