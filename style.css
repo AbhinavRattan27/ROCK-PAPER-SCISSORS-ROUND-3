@@ -2,6 +2,7 @@ body{
     background-color:aquamarine;
     background-image:url(hands-playing-rock-paper-scissors-game-flat-design-style-vector-illustration_540284-598.webp);
     background-size: cover;
+    text-align:center;
 }
     
 .main{
@@ -52,4 +53,27 @@ body{
     width: 50%;
   }
   
+.image1{
+  max-height: 250px;
+  min-height: 240px;
+  float: right;
+}
+
+.image2{
+  max-height: 250px;
+  min-height: 240px;
+  float: left;
+}
+
+.button1{
+ cursor: pointer;
+ font-size: large;
+ box-shadow:rgb(229, 194, 194) 2px 5px 2px 5px ;
+ text-decoration: none;
+}
+
+.button1:hover{
+  background-color: beige;
+  
+}
   
